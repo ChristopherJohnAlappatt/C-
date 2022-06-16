@@ -3,7 +3,7 @@
 using namespace std;
 
 template<class T, class S>
-T add(T a, S b) {
+T  add(T a, S b) {
     return a + b;
 }
 
