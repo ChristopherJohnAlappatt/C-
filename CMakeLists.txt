@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+project(test)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(test main.cpp Assignments/Assignment-1/odd_even.cpp Assignments/Assignment-1/calculator.cpp 1-Basics/loops.cpp 1-Basics/arrays.cpp 1-Basics/transpose_matrix.cpp 1-Basics/pointer.cpp Assignments/Assignment-2/first_ten_natural_numbers.cpp Assignments/Assignment-2/perfect_number.cpp Assignments/Assignment-2/gcd.cpp 2-Strings/strings-using-char-array.cpp 2-Strings/strings-using-string-class.cpp Assignments/Assignment-3/count-vowels-and-consoneants.cpp Assignments/Assignment-3/print_duplicates.cpp Assignments/Assignment-3/find-character.cpp 3-Functions/functions-in-cpp.cpp 3-Functions/call-by-reference.cpp Assignments/Assignment-4/voting-eligibilty.cpp Assignments/Assignment-4/calculator.cpp Assignments/Assignment-4/maximum_of_two.cpp 4-Structures/complex.cpp 5-Classes/classes_example.cpp Assignments/Assignment-5/structures-examples.cpp Assignments/Assignment-5/reverse-of-a-number.cpp Assignments/Assignment-5/factorial.cpp Assignments/Assignment-6/function-overloading.cpp Assignments/Assignment-6/operator-overloading.cpp 6-Inheritance/inheritance-example.cpp 6-Inheritance/inheritance-and-constructors.cpp 6-Inheritance/multiple-inheritance.cpp 6-Inheritance/multi-level-inheritance.cpp)
